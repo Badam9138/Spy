@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spy Game</title>
+  <title>Barrah al-Salfa</title>
   <link rel="stylesheet" href="style.css">
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
   <div class="container">
-    <h1>Spy Game 🕵️</h1>
+    <h1>Barrah al-Salfa 🕵️</h1>
     <button onclick="startGame()">Start New Game</button>
     <div id="playerRole"></div>
   </div>
@@ -17,3 +17,11 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<label for="category">Choose a Category:</label>
+<select id="category">
+  <option value="Place">Place</option>
+  <option value="Food">Food</option>
+  <option value="Animal">Animal</option>
+</select>
+<button onclick="startGame()">Start Game</button>
