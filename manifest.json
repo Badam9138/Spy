@@ -2,12 +2,13 @@
     "name": "Barrah al-Salfa",
     "short_name": "Spy",
     "start_url": ".",
-    "display": "standalone",
-    "background_color": "#fef6e4",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "background_color": "#280137",
     "theme_color": "#f582ae",
     "icons": [
       {
-        "src": "icon.png",
+        "src": "AI_Spy_Icon.png",
         "sizes": "192x192",
         "type": "image/png"
       }
